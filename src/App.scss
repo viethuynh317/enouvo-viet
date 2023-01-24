@@ -1,0 +1,41 @@
+@import "node_modules/h8k-design/lib/index";
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+section {
+  padding-top: 20px;
+}
+
+.card-text {
+  width: 400px;
+}
+
+.card {
+  width: 100%;
+}
+
+.weather-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 100px;
+}
+
+.weather-data {
+  border: 1px solid#cbc9c9;
+  padding: 50px;
+}
+
+.result-temperature {
+  font-size: 35px;
+}
+
+.no-result {
+  width: 100%;
+  font-size: 20px;
+}
